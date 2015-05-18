@@ -1,0 +1,29 @@
+BEGIN TRANSACTION;
+CREATE TABLE `user` (
+	`_id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`email`	TEXT NOT NULL,
+	`password`	TEXT NOT NULL
+);
+CREATE TABLE `likes` (
+	`_id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`idTop`	INTEGER NOT NULL,
+	`idBottom`	INTEGER NOT NULL,
+	`pathTop`	TEXT,
+	`pathBottom`	TEXT,
+	`idUser`	INTEGER NOT NULL
+);
+CREATE TABLE `article` (
+	`_id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`idUser`	INTEGER NOT NULL,
+	`name`	TEXT,
+	`color`	TEXT NOT NULL,
+	`density`	TEXT,
+	`category`	TEXT NOT NULL,
+	`material`	TEXT NOT NULL,
+	`season`	TEXT NOT NULL,
+	`imagePath`	TEXT
+);
+;
+;
+;
+COMMIT;

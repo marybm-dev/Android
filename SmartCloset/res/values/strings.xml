@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartCloset+</string>
+    <string name="bottoms">Bottoms</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="category">Category</string>
+    <string name="color">Color</string>
+    <string name="drawer_open">Open drawer</string>
+	<string name="drawer_close">Close drawer</string>
+	<string name="description">Description</string>
+	<string name="Login">Welcome, Please Login</string>
+	<string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordConfirm">Re-Enter Password</string>
+    <string name="attempts">Attempts Left:</string>
+    <string name="submit">Login</string>
+    <string name="register">Sign Up</string>
+    <string name="regButton">Submit</string>
+    <string name="outfitTop">Top View</string>
+    <string name="outfitBottom">Bottom View</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="blank"></string>
+    
+    <string-array name="category_array">
+        <item>Business</item>
+        <item>Casual</item>
+        <item>Dress</item>
+        <item>Sport</item>
+        <item>Weekend</item>
+    </string-array>
+    <string-array name="color_array">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Tan</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="type_array">
+        <item>Tops</item>
+        <item>Bottoms</item>
+        <item>Sweaters</item>
+        <item>Pants</item>
+        <item>Shorts</item>
+    </string-array>
+    <string-array name="material_array">
+        <item>Silk</item>
+        <item>Cotton</item>
+        <item>Denim</item>
+        <item>Blend</item>
+    </string-array>
+        <string-array name="season_array">
+        <item>Winter</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+    </string-array>
+        
+</resources>

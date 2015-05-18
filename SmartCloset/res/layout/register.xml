@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/reg_space1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank"
+        android:textSize="36sp" />
+    
+    <TextView android:id="@+id/signUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_space1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/register" />
+    
+    <TextView
+        android:id="@+id/reg_space2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp"
+        android:gravity="center"
+        android:text="@string/blank"
+        android:textSize="24sp" />    
+    
+    <EditText android:id="@+id/regEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_space2"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+    
+    <EditText android:id="@+id/regPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regEmail"
+        android:inputType="textPassword"
+        android:hint="@string/password" />
+
+    <EditText android:id="@+id/regPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regPassword"
+        android:inputType="textPassword"
+        android:hint="@string/passwordConfirm" />
+        
+    <TextView
+        android:id="@+id/reg_space3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regPasswordConfirm"
+        android:gravity="center"
+        android:text="@string/blank"
+        android:textSize="24sp" />
+        
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/reg_space3"
+        android:background="@color/blue"
+        android:text="@string/regButton"
+        android:textColor="@color/white"  />
+
+</RelativeLayout>
